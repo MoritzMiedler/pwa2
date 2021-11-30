@@ -1,5 +1,7 @@
 <template>
   <div id="app" class="container d-flex flex-column justify-content-center align-items-center mt-5">
+    <h1>Hier könnte Ihre Werbung stehen!(Ich liebe Webtech)</h1>
+    <img src="employees.jpg" height="200" />
     <h3>Willkommen bei der Service Worker Untersuchung!!</h3>
     <ButtonGet @get="fetchData"></ButtonGet>
     <CardView :employees="employees" @del="delEmployee"></CardView>
